@@ -10,6 +10,8 @@ void eyes() {
  */
 //
 void leftEye() {
+  fill(127,250,90);
+ellipse(200,100,50,70);
   //Logical Rectangle for Left Eye, teacher demo, repeated below
   //Purpose: no measles in eye
   //Easier layering method

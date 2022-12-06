@@ -22,15 +22,14 @@ void population() {
   //
    mouthX1 = leftEyeX;
   mouthY1 = smallerDimension*3/4;
-  mouthX2 = rightEyeX;
-  mouthY2 = mouthY1;
-  mouthOpen = smallerDimension*1/4;
+
+  mouthClosed = smallerDimension*1/4;
   //
   xNose1 = faceX;
   yNose1 = leftEyeY;
-  xNose2 = faceX - leftEyeY*1/2;
+  xNose2 = faceX - leftEyeY*2/2;
   yNose2 = faceY ;
-  xNose3 = faceX + leftEyeY*1/2;
+  xNose3 = faceX + leftEyeY*2/2;
   yNose3 = faceY ;
   //
 } //End population
